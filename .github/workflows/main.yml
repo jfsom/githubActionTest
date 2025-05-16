@@ -13,10 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
-    - name: Run a one-line script
-      run: echo "Hello, GitHub Actions!"
-
--     name: Setup Node.js
+    - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
         node-version: '14.x'
