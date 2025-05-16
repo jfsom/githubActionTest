@@ -12,6 +12,11 @@ jobs:
     
     steps:
     - uses: actions/checkout@v2
-    
-    - name: Run tests
-      run: npm test  # or pytest, make test, etc.    
+       
+    - name: Cache node modules
+      uses: actions/cache@v2
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-  
