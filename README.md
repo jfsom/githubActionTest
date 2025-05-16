@@ -42,3 +42,13 @@ jobs:
           ${{ runner.os }}-node-
 
 
+##  Other Tutorial Reference [Important]
+
+https://docs.github.com/en/actions/writing-workflows/quickstart
+https://docs.github.com/en/actions/use-cases-and-examples/deploying/deploying-net-to-azure-app-service
+https://medium.com/insiderengineering/what-is-github-actions-workflows-f373d9037981
+https://www.freecodecamp.org/news/learn-to-use-github-actions-step-by-step-guide/
+https://docs.github.com/en/actions/use-cases-and-examples/creating-an-example-workflow
+
+
+
