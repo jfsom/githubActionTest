@@ -15,3 +15,6 @@ jobs:
     
     - name: Run a one-line script
       run: echo "Hello, GitHub Actions!"
+
+    - name: Run tests
+      run: npm test  # or pytest, make test, etc.
